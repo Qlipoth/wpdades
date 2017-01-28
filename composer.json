@@ -1,0 +1,10 @@
+{
+    "name": "qlipoth/wpdades",
+    "description": "desshop",
+    "type": "project",
+    "require": {
+        "woocommerce/woocommerce": "^2.6"
+    },
+    "license": "no",
+    "minimum-stability": "dev"
+}

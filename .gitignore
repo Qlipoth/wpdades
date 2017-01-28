@@ -5,6 +5,8 @@ wp-config.php
 # Ignore the wp-content directory
 /wp-content
 
+# Ignore vendor
+/vendor
 # Don’t ignore plugins dir, but ignore everything inside
 !/wp-content/plugins
 /wp-content/plugins/*
