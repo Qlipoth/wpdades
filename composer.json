@@ -1,9 +1,15 @@
 {
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
     "name": "qlipoth/wpdades",
     "description": "desshop",
     "type": "project",
     "require": {
-        "woocommerce/woocommerce": "^2.6"
+        "wpackagist-plugin/woocommerce": "^2.6.13"
     },
     "license": "no",
     "minimum-stability": "dev"

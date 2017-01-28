@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e9e39ec98b35ce703f833efc6ba9e5a",
+    "content-hash": "5186e10a043277f23c64779f45d6e139",
     "packages": [
         {
             "name": "composer/installers",
@@ -114,36 +114,24 @@
             "time": "2016-08-13T20:53:52+00:00"
         },
         {
-            "name": "woocommerce/woocommerce",
-            "version": "2.7.0-beta-1",
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "2.6.13",
             "source": {
-                "type": "git",
-                "url": "https://github.com/woocommerce/woocommerce.git",
-                "reference": "99e0562bf5e8bf3179b100baf28985ad78d878a9"
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/2.6.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woocommerce/woocommerce/zipball/99e0562bf5e8bf3179b100baf28985ad78d878a9",
-                "reference": "99e0562bf5e8bf3179b100baf28985ad78d878a9",
-                "shasum": ""
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.13.zip",
+                "reference": "tags/2.6.13",
+                "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
             },
-            "require-dev": {
-                "simplyadmire/composer-plugins": "@dev",
-                "squizlabs/php_codesniffer": "*",
-                "wimg/php-compatibility": "*",
-                "wp-coding-standards/wpcs": "*"
-            },
             "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "An e-commerce toolkit that helps you sell anything. Beautifully.",
-            "homepage": "https://woocommerce.com/",
-            "time": "2016-12-15T17:12:28+00:00"
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
         }
     ],
     "packages-dev": [],
