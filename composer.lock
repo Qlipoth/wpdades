@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5186e10a043277f23c64779f45d6e139",
+    "content-hash": "c73280216cff2564c3c2119998aee882",
     "packages": [
         {
             "name": "composer/installers",
@@ -114,6 +114,26 @@
             "time": "2016-08-13T20:53:52+00:00"
         },
         {
+            "name": "wpackagist-plugin/rus-to-lat-advanced",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rus-to-lat-advanced/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rus-to-lat-advanced.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rus-to-lat-advanced/"
+        },
+        {
             "name": "wpackagist-plugin/woocommerce",
             "version": "2.6.13",
             "source": {
@@ -132,6 +152,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-products-filter",
+            "version": "1.1.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-products-filter/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-products-filter.zip",
+                "reference": "trunk",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-products-filter/"
         }
     ],
     "packages-dev": [],

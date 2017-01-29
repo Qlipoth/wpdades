@@ -9,7 +9,9 @@
     "description": "desshop",
     "type": "project",
     "require": {
-        "wpackagist-plugin/woocommerce": "^2.6.13"
+        "wpackagist-plugin/woocommerce": "^2.6.13",
+        "wpackagist-plugin/woocommerce-products-filter": "^1.1.6.1",
+        "wpackagist-plugin/rus-to-lat-advanced": "^1.1"
     },
     "license": "no",
     "minimum-stability": "dev"
